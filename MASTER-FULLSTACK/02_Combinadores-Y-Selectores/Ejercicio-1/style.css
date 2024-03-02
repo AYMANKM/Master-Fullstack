@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Aplicando los mismo estilos indicados por The power, sobre el color y el estilo de la letra.*/
+main, section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    gap: 30px;
+}
+
+section p{
+    color: grey;
+    font-style: italic;
+}

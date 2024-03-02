@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-j1niu8FbVRg%2FXxYRzC4IkiI%2FAAAAAAAAN0U%2Fk-AjL_vOXmc0SUXCuqXx8Lb6fVNpykooACLcBGAsYHQ%2Fs2560%2Ffoto%252Bred.png&f=1&nofb=1&ipt=4ab4f246e6578ea75b7a1ff6416fb22254742472695a10dc8df2240dc2f0c8f1&ipo=images" alt="" />
+        <h3>AYMAN EL KHAMKHAMI</h3>
+        <p>
+          Eres un apasionado explorador del conocimiento, siempre en busca de
+          respuestas y descubrimientos. Tu mente es un universo vibrante, lleno
+          de preguntas sin respuesta y nuevas ideas por descubrir. Desafías lo
+          establecido y te sumerges en los rincones más oscuros del saber,
+          iluminando el camino con tu curiosidad insaciable. Eres un tesoro
+          invaluable en un mundo sediento de comprensión y descubrimiento.
+        </p>
+      </section>
+    </main>
+  </body>
+  <script>
+    ScrollReveal({ 
+      reset: true,
+      distance: "60px",
+      duration: "2500",
+      delay: 400,
+    });
+
+    ScrollReveal().reveal('section img', { delay: 500, origin: 'top' });
+    ScrollReveal().reveal('section h3', { delay: 500, origin: 'left' });
+    ScrollReveal().reveal('section p', { delay: 500, origin: 'right' });
+  </script>
+</html>
